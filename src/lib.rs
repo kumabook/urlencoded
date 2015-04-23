@@ -1,4 +1,3 @@
-#![feature(core, std_misc)]
 //! URL Encoded Plugin for Iron.
 //!
 //! Parses "url encoded" data from client requests.
