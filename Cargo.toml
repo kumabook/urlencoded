@@ -15,5 +15,6 @@ license = "MIT"
 iron = "*"
 url = "*"
 plugin = "*"
-bodyparser = "*"
-
+[dependencies.bodyparser]
+git = "https://github.com/reklis/body-parser.git"
+rev = "3ff7bf1947edeed28ccc1ee59521d4c928256ede"

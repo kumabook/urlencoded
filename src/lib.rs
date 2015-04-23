@@ -37,7 +37,7 @@ pub struct UrlEncodedBody;
 ///
 /// The second type of error that can occur is that something goes wrong
 /// when parsing the request body.
-#[derive(Clone, Debug)]
+#[derive(Debug)]
 pub enum UrlDecodingError{
     /// An error parsing the request body
     BodyError(bodyparser::BodyError),
